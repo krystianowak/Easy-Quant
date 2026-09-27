@@ -2,7 +2,7 @@
 Simple tool for Windows systems that uses llama.cpp components to simplify the process of quantization. Aims to reduce time spent configuring the environment.
 
 # Features
-- Uses an x86_64 build of llama.cpp with basic AVX (Advanced Vector Extensions) support for compatibility across systems.
+- Uses an x86_64 build of llama.cpp with basic AVX (Advanced Vector Extensions) support for compatibility across PCs.
 - Most quantization methods are supported (ranging from Q8_0 to Q1_0).
 - Easy to understand instructions in the executable
 
