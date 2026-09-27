@@ -1,5 +1,5 @@
 # Easy-Quant
-Simple tool that uses llama.cpp components to simplify the process of quantization. Aims to reduce time spent configuring the environment.
+Simple tool for Windows systems that uses llama.cpp components to simplify the process of quantization. Aims to reduce time spent configuring the environment.
 
 # Features
 - Uses an x86_64 build of llama.cpp with basic AVX (Advanced Vector Extensions) support for compatibility across systems.
