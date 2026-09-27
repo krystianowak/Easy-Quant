@@ -15,11 +15,10 @@ Simple tool that uses llama.cpp components to simplify the process of quantizati
 6. The file will be waiting in the output folder that was mentioned in step 2.
 
 # Notices
+- The code doesn't look professional under the hood since I'm a beginner (it will improve gradually, don't worry).
 - This utility still requires the same amount of computation as the standard compiled binary during the quantization process.
 - It can't use the '--allow-requantize' option like in standard llama-quantize (so Float16 GGUFs are only accepted by now).
 - Imatrix quants like IQ4_XS or IQ1_M aren't usable yet.
-
-
 
 This project bundles the pre-compiled 'llama-quantize' binary from the llama.cpp project.
 llama.cpp is licensed under the MIT License.
